@@ -35,5 +35,28 @@ li{
 a{
     text-decoration: none;
     margin-left: 20px;
-    
 }
+
+/* Content */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Boletin */
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.register{
+    background-color: #fb743e;
+    margin-top: 15px;
+}
+
+
