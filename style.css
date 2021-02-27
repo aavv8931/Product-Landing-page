@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+/* header */
+#header{
+    background-color: #c5d7bd;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+  
+}
+
+.header-img{
+    align-self: center;
+}
+
+/* Header Links */
+.nav-a{
+ align-self: center; 
+
+}
+
+li{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-around;
+  
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
