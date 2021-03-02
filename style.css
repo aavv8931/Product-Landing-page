@@ -59,4 +59,48 @@ a{
     margin-top: 15px;
 }
 
+/* Features */
+
+#features{
+    margin-top: 25px;
+}
+
+.feature-box{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    
+    margin-bottom: 25px;
+}
+
+.box1{
+    align-self: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+@media (max-width: 500px){
+    body{
+        margin: 0px;
+    }
+
+    .feature-box{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+        margin-bottom: 25px;
+    }
+    
+
+}
+
 
